@@ -1,0 +1,27 @@
+{
+  "name": "@idevdb/server",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [],
+  "author": "ccoffline <ccoffline@qq.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf dist",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@idevdb/core": "workspace:*",
+    "@idevdb/store": "workspace:*",
+    "@koa/router": "^12.0.0",
+    "koa": "^2.14.1",
+    "koa-bodyparser": "^4.4.0"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.6",
+    "@types/koa-bodyparser": "^4.3.10",
+    "@types/koa__router": "^12.0.0"
+  }
+}

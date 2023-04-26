@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    // 指定 ECMAScript 目标版本: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', or 'ESNEXT'
+    "target": "es2017",
+    // 指定使用模块: 'commonjs', 'amd', 'system', 'umd' or 'es2015'
+    "module": "commonjs",
+    // "moduleResolution": "node",
+    // 允许编译JS
+    "allowJs": false,
+    // 如果设为true，编译每个ts文件之后会生成一个js文件和一个声明文件
+    // declaration和allowJs不能同时设为true
+    "declaration": true,
+    // 值为true或false，指定是否为声明文件.d.ts生成map文件
+    "declarationMap": true,
+    // 用来指定编译时是否生成.map文件
+    "sourceMap": true,
+    // "composite": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "esModuleInterop": true,
+    "removeComments": false,
+  },
+//   "include": [
+//   ],
+//   "exclude": [
+//     "node_modules"
+//   ]
+}
